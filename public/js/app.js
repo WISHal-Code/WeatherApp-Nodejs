@@ -1,6 +1,3 @@
-console.log('Client Side JavaScript');
-
-
 document.querySelector('form').addEventListener('submit',e=>{
     e.preventDefault();
 document.querySelector('#forecast').textContent = "loading..."
